@@ -2,8 +2,6 @@ from tkinter import *
 from tkinter import ttk
 from createGraph import *
 
-##98e3da text
-
 class Application(Tk):
     def __init__(self):
         Tk.__init__(self)
