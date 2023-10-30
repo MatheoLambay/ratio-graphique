@@ -66,7 +66,6 @@ class Application(Tk):
         try:
             del data[self.table.item(self.table.focus())['values'][0]]
             for i in self.table.selection():
-            
                 self.table.delete(i)
             newData(data)
         except:
@@ -81,10 +80,6 @@ class Application(Tk):
     def back(self,frame):
         frame.forget()
         self.mainFrame()
-
-    
-        
-    
 
 if __name__ == '__main__':
     app = Application()

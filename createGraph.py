@@ -32,7 +32,6 @@ def showChart():
             tab_y.append((j,list(data.values())[t]))   
         except:
             tab_y.append((j,j))
-        
         t+=1
     plt.yticks(list(data.values()))
 
@@ -52,9 +51,3 @@ def addDateJson(ratio,error):
             newData(data)
     except:
         error['text'] = 'Not a number'
-    
-    
-
-
-
-
