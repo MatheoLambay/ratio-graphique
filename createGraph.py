@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import json
 import datetime as dt
-# from tkinter import *
+
 
 def todayDate():
     return str(dt.date.today())
