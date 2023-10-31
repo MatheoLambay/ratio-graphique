@@ -40,7 +40,6 @@ def showChartratio():
         y = np.array(tab_y[i])
         plt.plot(x, y,marker='o',color='green')
     plt.show()
-    print(tab_x)
     
 def addDateJson(ratio1,error,dataName,dataType,ratio2=4.5):
     data = openData(dataName)
