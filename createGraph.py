@@ -86,7 +86,7 @@ def showChartUpDown():
             tabD_y.append((i,i))
         t+=1  
     nbrUP.extend(nbrDOWN)
-    plt.yticks(nbrUP)
+    plt.yticks(list(set(nbrUP)))
     for i in range(len(tabUD_x)):
         x = np.array(tabUD_x[i])
         y = np.array(tabU_y[i])
